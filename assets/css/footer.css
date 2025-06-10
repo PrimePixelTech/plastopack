@@ -1,6 +1,6 @@
 #footer {
- margin-top: 30px;
-  background: #2d2d2db3;
+ margin-top: 11px;
+  background: #333333f0;
   color: #f0f0f0;
   padding: 60px 20px 30px;
   font-size: 16px;
@@ -27,7 +27,7 @@
 
 .footer-section p,
 .footer-section a {
-  color: #cccccc;
+  color: #fef7abde;
   text-decoration: none;
 }
 
@@ -51,6 +51,10 @@
   padding-top: 20px;
   font-size: 14px;
   color: #999;
+}
+
+.footer-bottom p {
+  color: whitesmoke;
 }
 
 .footer-bottom a {

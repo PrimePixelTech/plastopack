@@ -266,5 +266,8 @@ p {
     margin-right: 0;
     margin-bottom: 1rem;
   }
+  .tbl-sec{
+    font-size: 20px;
+  }
 
 }
