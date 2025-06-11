@@ -8,15 +8,16 @@
 
 .footer-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: auto;
 }
 
 .footer-section {
-  flex: 1 1 300px;
+  flex: 1 1 200px;
+  box-shadow: 0 0 10px gray;
   margin: 20px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 10px;
 }
 
 .footer-section h3,
@@ -46,15 +47,16 @@
 
 .footer-bottom {
   text-align: center;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   border-top: 1px solid #333;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   font-size: 14px;
   color: #999;
 }
 
 .footer-bottom p {
   color: whitesmoke;
+  margin-bottom: 0 !important;
 }
 
 .footer-bottom a {
@@ -64,15 +66,11 @@
 
 @media (max-width: 768px) {
     .footer-section {
-    flex: 1 1 100%;
     margin: 5px;
   }
   .footer-container {
     flex-direction: column;
     text-align: center;
-  }
-  .footer-bottom {
-    margin-top: 10px;
   }
 
   .footer-section {
