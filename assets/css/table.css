@@ -1,9 +1,12 @@
+<<<<<<< HEAD
 .tbl-sec{
     display: flex;
 }
 .tbl-sec-lside{
     width: 100%;
 }
+=======
+>>>>>>> 92630fa646c9d0b6bed4557c5c8ab054e2251375
 
 .tbl-head {
 
@@ -47,15 +50,6 @@ td:last-child {
     align-items: center;
     justify-content: center;
 }
-.rside-img{
-    width: 80%;
-    object-fit: cover;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-.rside-img img {
-    width: 100%;
-}
 
 @media (max-width:778px) {
     .tbl-sec{
@@ -68,10 +62,7 @@ td:last-child {
     .tbl-sec-rside{
         display: none;
     }
-}
-
-@media (max-width:600px) {
-    table{
-        font-size: 10px;
+    .section-header{
+        font-size: 18px;
     }
 }

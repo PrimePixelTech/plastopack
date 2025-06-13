@@ -7,7 +7,6 @@
 html {
   height: 100%;
   width: 100%;
-  
 }
 
 body {
@@ -18,10 +17,28 @@ body {
 }
 
 :root {
+<<<<<<< HEAD
   --primary-color: #21829a;
   --secondary-color: white;
   --text-color: #2D2D2D;
 }
+.paragraphs{
+  font-size: 18px;
+}
+.common-header{
+  font-size: 40px;
+}
+@media (max-width:768px) {
+  .paragraphs{
+    font-size: 12px;
+  }
+=======
+  --primary-color: #eb9d99;
+  --secondary-color: white;
+  --text-color: #a8120a;
+>>>>>>> 92630fa646c9d0b6bed4557c5c8ab054e2251375
+}
+
 .paragraphs{
   font-size: 18px;
 }
