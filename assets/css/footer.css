@@ -8,24 +8,15 @@
 
 .footer-container {
   display: flex;
-<<<<<<< HEAD
   flex-wrap: wrap;
   justify-content: space-between;
-  /* max-width: 1200px; */
   margin: auto;
   text-align: center;
-=======
->>>>>>> 92630fa646c9d0b6bed4557c5c8ab054e2251375
 }
 
 .footer-section {
-  flex: 1 1 200px;
-  box-shadow: 0 0 10px gray;
+  flex: 1 1 300px;
   margin: 20px;
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  padding: 10px;
 }
 
 .footer-section h3,
@@ -36,11 +27,7 @@
 
 .footer-section p,
 .footer-section a {
-<<<<<<< HEAD
   color: white;
-=======
-  color: #fef7abde;
->>>>>>> 92630fa646c9d0b6bed4557c5c8ab054e2251375
   text-decoration: none;
 }
 .fot-head{
@@ -64,23 +51,18 @@
 
 .footer-bottom {
   text-align: center;
-  /* margin-top: 40px; */
+  margin-top: 40px;
   border-top: 1px solid #333;
-  /* padding-top: 20px; */
+  padding-top: 20px;
   font-size: 14px;
   color: #999;
 }
 
 .footer-bottom p {
-<<<<<<< HEAD
    
     margin-bottom: 0;
     color: whitesmoke;
     font-weight: 500 !important;
-=======
-  color: whitesmoke;
-  margin-bottom: 0 !important;
->>>>>>> 92630fa646c9d0b6bed4557c5c8ab054e2251375
 }
 
 .footer-bottom a {
@@ -90,11 +72,15 @@
 
 @media (max-width: 768px) {
     .footer-section {
+    flex: 1 1 100%;
     margin: 5px;
   }
   .footer-container {
     flex-direction: column;
     text-align: center;
+  }
+  .footer-bottom {
+    margin-top: 10px;
   }
 
   .footer-section {

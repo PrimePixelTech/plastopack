@@ -17,7 +17,6 @@ body {
 }
 
 :root {
-<<<<<<< HEAD
   --primary-color: #21829a;
   --secondary-color: white;
   --text-color: #2D2D2D;
@@ -32,11 +31,7 @@ body {
   .paragraphs{
     font-size: 12px;
   }
-=======
-  --primary-color: #eb9d99;
-  --secondary-color: white;
-  --text-color: #a8120a;
->>>>>>> 92630fa646c9d0b6bed4557c5c8ab054e2251375
+
 }
 
 .paragraphs{
