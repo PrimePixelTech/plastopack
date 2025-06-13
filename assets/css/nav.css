@@ -4,8 +4,7 @@
 
 .header {
   width: 100%;
-  background-color: #f3eec6;
-  color: var(--text-color);
+  background-color: #21829a;
   position: sticky;
   top: 0;
   z-index: 9999;
@@ -22,6 +21,9 @@
 .logo-name {
   height: 60px;
   width: 60px;
+  margin-top: 10px;
+  background-color: whitesmoke;
+  border-radius: 50%;
 }
 
 .header-logo {
@@ -38,7 +40,7 @@
 
 .header-li a {
   text-decoration: none;
-  color: var(--text-color);
+  color: white;
   font-size: 18px;
   padding: 10px;
   display: inline-block;
@@ -63,7 +65,7 @@
   left: 0;
   height: 2px;
   width: 0%;
-  background-color: var(--text-color);
+  background-color: red;
   transition: width 0.6s ease;
 }
 
@@ -71,47 +73,10 @@
   width: 100%;
 }
 
-.dropdown-container {
-  position: relative;
-}
-
-.dropdown {
-  display: none;
-  position: absolute;
-  background-color: var(--primary-color);
-  top: 100%;
-  left: 0;
-  min-width: 100px;
-  border-radius: 6px;
-  box-shadow: 0 0px 10px #a8120a6f;
-  z-index: 1000;
-}
-
-.dropdown li {
-  display: block;
-}
-
-.dropdown li a {
-  color: var(--text-color);
-  text-decoration: none;
-  padding: 10px 15px;
-  display: block;
-  font-size: 16px;
-  transition: background 0.3s ease;
-}
-
-.dropdown li a:hover {
-  background-color: #a8120a10;
-}
-
-.dropdown-container:hover .dropdown {
-  display: block;
-}
-
 .toggle {
   display: none;
   font-size: 26px;
-  color: var(--text-color);
+  color: whitesmoke;
   cursor: pointer;
 }
 
@@ -137,6 +102,9 @@
   .toggle {
     display: block;
   }
+  .header-li a {
+    color: black;
+  }
 
   .dropdown {
     position: static;
@@ -151,5 +119,8 @@
   }
   .toggle {
     font-size: 18px;
+  }
+  .header-li a {
+    color: black;
   }
 }

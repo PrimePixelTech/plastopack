@@ -2,7 +2,7 @@
     display: flex;
 }
 .tbl-sec-lside{
-    width: 60%;
+    width: 100%;
 }
 
 .tbl-head {
@@ -13,8 +13,8 @@
 }
 
 .section-header {
-    background-color: darkgoldenrod;
-    color: white;
+    background-color: skyblue;
+    color: black;
     padding: 10px;
     font-weight: bold;
 }

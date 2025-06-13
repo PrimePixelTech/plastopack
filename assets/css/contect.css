@@ -85,7 +85,7 @@
     }
 
     .submit-btn:hover {
-      background: #630101;
+      background: #144d5c;
     }
 
     .map-section h3 {
@@ -126,6 +126,7 @@
     @media (max-width: 768px) {
       .contact-container {
         flex-direction: column;
+
       }
 
       .form-section, .map-section {
