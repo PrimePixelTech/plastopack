@@ -75,7 +75,7 @@
 
 .toggle {
   display: none;
-  font-size: 26px;
+  font-size: 20px;
   color: whitesmoke;
   cursor: pointer;
 }
@@ -84,13 +84,13 @@
 @media (max-width: 768px) {
   .header-ul {
     flex-direction: column;
-    background: transparent;
+    background: #21829a5e;
     backdrop-filter: blur(50px);
     position: fixed;
-    top: 96px;
+    top: 106px;
     right: -100%;
     width: 40%;
-    height: calc(100vh - 96px);
+    height: calc(100vh - 106px);
     padding-top: 20px;
     transition: right 0.3s ease;
   }
@@ -103,19 +103,19 @@
     display: block;
   }
   .header-li a {
-    color: black;
-  }
-
-  .dropdown {
-    position: static;
-    box-shadow: none;
-    background-color: var(--accent-color);
+    color: rgb(61, 61, 61) !important;
   }
 }
 
 @media (max-width: 600px) {
+  .header{
+    height: 80px;
+    padding: 0 15px;
+  }
   .header-ul {
     width: 70%;
+    top: 80px;
+    height: calc(100vh - 80px);
   }
   .toggle {
     font-size: 18px;
